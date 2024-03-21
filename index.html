@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Frameset</title>
+</head>
+<frameset rows="8%,*,10%" cols="100%" frameborder="yes">
+    <frame src="header.html" scrolling="no"/>
+    
+    <frameset cols="50%" rows="50%">
+        <frame src="main.html" scrolling="auto" name="main"/>
+        <frame src="home1.html" scrolling="auto" name="main"/><!-- Memperbaiki typo pada scrolling -->
+    </frameset>
+    <frameset rows="6%">
+        <frame src="footer.html"/>
+    </frameset>
+</frameset>
+</html>
